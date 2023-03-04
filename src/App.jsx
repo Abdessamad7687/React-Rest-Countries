@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { Divider, Stack } from '@mui/material'
-import DataTable from './components/DataTable'
+// import DataTable from './components/DataTable'
+import Table from './components/Table'
 
 const App = () => {
   const [countries, setCountries] = useState([])
@@ -21,18 +22,8 @@ const App = () => {
       sx={{ flexWrap: 'wrap', margin: '50px' }}
       divider={<Divider orientation="vertical" flexItem />}
       spacing={2}>
-
-      {/* {
-        countries.map((country, index) => (
-          <DataTable
-            sx={{ marginTop: '20px' }}
-            key={index}
-            
-          />
-        ))
-      } */}
-      <DataTable           
-          />
+        <Table />
+     
     </Stack>
 
   )
