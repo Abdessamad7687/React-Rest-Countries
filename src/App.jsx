@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-  
+
+import Card from './components/Card'
+
 const App = () => {
   const [countries, setCountries] = useState([])
   const fetchData = async () => {
@@ -14,7 +16,9 @@ const App = () => {
 
   
   return (
-    <div>Hello APP.jsx</div>
+    <div>
+      <Card />
+    </div>
 
   )
 }
