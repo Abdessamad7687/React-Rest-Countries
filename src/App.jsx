@@ -1,9 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { Divider, Stack } from '@mui/material'
-// import DataTable from './components/DataTable'
-import Table from './components/Table'
-
+  
 const App = () => {
   const [countries, setCountries] = useState([])
   const fetchData = async () => {
@@ -15,16 +12,9 @@ const App = () => {
     fetchData()
   }, [])
 
+  
   return (
-    <Stack direction="row"
-      justifyContent="center"
-      alignItems="center"
-      sx={{ flexWrap: 'wrap', margin: '50px' }}
-      divider={<Divider orientation="vertical" flexItem />}
-      spacing={2}>
-        <Table />
-     
-    </Stack>
+    <div>Hello APP.jsx</div>
 
   )
 }

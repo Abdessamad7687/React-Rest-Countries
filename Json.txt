@@ -53161,3 +53161,54 @@
             "official":"جمهورية غامبيا",
             "common":"غامبيا"
          },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+search for country
+Country(
+
+   name 
+   langue 
+   currencies
+   symbol currencies
+   phone first letters
+   flag
+   photo 
+   independent(TRUE, FALSE)
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
