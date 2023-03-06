@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-
 import Card from './components/Card'
+import Title from './components/Title'
+
 
 const App = () => {
   const [countries, setCountries] = useState([])
@@ -14,12 +15,22 @@ const App = () => {
     fetchData()
   }, [])
 
-  
-  return (
-    <div>
-      <Card />
-    </div>
 
+  return (
+    <>
+      <Title />
+      <div>
+        {/* <Card /> */}
+
+        {countries.map((country, index) =>
+          <Card
+            key={index}
+            cname={country.name.official}
+            capital={country.capital}
+          />
+        )}
+      </div>
+    </>
   )
 }
 
