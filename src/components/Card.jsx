@@ -2,13 +2,13 @@ import React from 'react'
 import './Card.css'
 
 
-const Card = ({cname, capital}) => {
+const Card = ({ cname, capital }) => {
     return (
         <div className="container">
-            <p className="container-title">
+            {/* <p className="container-title">
                 Listing all countries 
-            </p>
-            <div className="gradient-cards">
+            </p> */}
+            <div className="row">
                 <div className="card">
                     <div className="container-card bg-green-box">
                         <svg
@@ -69,8 +69,8 @@ const Card = ({cname, capital}) => {
                         </p>
                     </div>
                 </div>
-                
             </div>
+
         </div>
 
     )

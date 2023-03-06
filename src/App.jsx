@@ -19,7 +19,7 @@ const App = () => {
   return (
     <>
       <Title />
-      <div>
+      <div className="gradient-cards">
         {/* <Card /> */}
 
         {countries.map((country, index) =>
