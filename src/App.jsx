@@ -20,7 +20,7 @@ const App = () => {
     <>
       <div className="container">
         <Title />
-        <div className="row mx-auto">
+        <div className="row mx-auto gap-1">
           {countries.map((country, index) =>
             <Card
               key={index}
