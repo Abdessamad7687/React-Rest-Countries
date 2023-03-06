@@ -18,10 +18,8 @@ const App = () => {
 
   return (
     <>
+      <div className="container">
       <Title />
-      <div className="gradient-cards">
-        {/* <Card /> */}
-
         {countries.map((country, index) =>
           <Card
             key={index}
