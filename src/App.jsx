@@ -19,14 +19,18 @@ const App = () => {
   return (
     <>
       <div className="container">
-      <Title />
-        {countries.map((country, index) =>
-          <Card
-            key={index}
-            cname={country.name.official}
-            capital={country.capital}
-          />
-        )}
+        <Title />
+        <div className="row mx-auto">
+          {countries.map((country, index) =>
+            <Card
+              key={index}
+              cname={country.name.official}
+              capital={country.capital}
+              image={country.flags.png}
+            />
+          )}
+        </div>
+
       </div>
     </>
   )
