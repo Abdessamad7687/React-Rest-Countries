@@ -27,6 +27,8 @@ const App = () => {
               cname={country.name.official}
               capital={country.capital}
               image={country.flags.png}
+              region={country.region}
+              population={country.population}
             />
           )}
         </div>
