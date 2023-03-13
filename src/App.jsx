@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container bg-dark text-white">
         <Title />
         <h6 className='text-center my-3'>
         <strong>Total Countries displayed:</strong> {countries.length}
