@@ -8,7 +8,7 @@ git clone https://github.com/Abdessamad7687/React-Rest-Countries
 ```
 
 ```bash
-cd react-rest-countries
+cd React-Rest-Countries
 ```
 
 
